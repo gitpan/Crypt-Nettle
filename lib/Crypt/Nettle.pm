@@ -15,7 +15,7 @@ package Crypt::Nettle;
 use strict;
 use warnings;
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 require XSLoader;
 XSLoader::load('Crypt::Nettle', $VERSION);
